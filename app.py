@@ -59,7 +59,7 @@ with st.expander("Show me instruction how to use it"):
 
 Phone = st.text_input("Enter your gf no. will talk to her directly ",   max_chars= 10)
 if Phone:
-    st.success(f"OOPs! your gf is someone else, This is her No. +91  9824712194 call her she will make u crazy 🫦🫦")
+    st.success(f"OOPs! your gf is someone else, This is her No. +91  6186563387 call her she will make u crazy 🫦🫦")
 
 
 
