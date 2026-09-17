@@ -11,12 +11,12 @@ if addflavour:
     st.write("Flavour is added")
 
 condomtype = st.radio("Pick your condom flavour and customize it by yourself : ",
-                      ["Choclate ", "Strawbeery",])
+                      ["Chocolate ", "Strawberry",])
 
-st. write(f"Slecetd condoms flavour {condomtype}")  
+st. write(f"Selected condoms flavour {condomtype}")  
 
 Add_customize_flavour =st.selectbox("chosee extra flavour : ", ["kesar","tulsi","monty special surprise"])
-st.write(f"Selection Flavour {Add_customize_flavour}")
+st.write(f"Selected Flavour {Add_customize_flavour}")
 
 flavourcontrast = st.slider("flavourcontrast",0,100,50)
 
@@ -27,13 +27,13 @@ name = st.text_input("Enter your Name")
 if name:
     st.write(f"BKL Welcome, {name} 💦💦! Your condom is on the way , patience will save u from unwanted pregnancy")
 
-st.title("condom flavour preferneces")
+st.title("condom flavour preferences")
 
 col1 , col2 = st.columns(2)
 
 with col1:
-    st.header("Choclate")
-    vote1 = st.button("Vote Choclate")
+    st.header("Chocolate")
+    vote1 = st.button("Vote Chocolate")
     
 
 with col2 :
@@ -59,7 +59,7 @@ with st.expander("Show me instruction how to use it"):
 
 Phone = st.text_input("Enter your gf no. will talk to her directly ",   max_chars= 10)
 if Phone:
-    st.success(f"OOPs! your gf is someone else, This is her No. +91 7357151783 call her she will make u crazy 🫦🫦")
+    st.success(f"OOPs! your gf is someone else, This is her No. +91  9824712194 call her she will make u crazy 🫦🫦")
 
 
 
